@@ -52,7 +52,8 @@ public abstract class File {
             System.out.println("No hay cambios");
         } else {
             setPath(newPath);
-            System.out.println("Se ha movido el fichero a" + newPath);
+            System.out.println("Se ha movido el fichero a '" + newPath + "'");
+            System.out.println();
         }
     }
 }

@@ -16,10 +16,5 @@ public class Main {
         System.out.println("Nuevo path");
         String outputPath = scanner.nextLine();
         program.execute(outputPath);
-        System.out.println();
-        System.out.println("TRAS EL EXECUTE");
-        for(var file:program.getFiles()){
-            file.open();
-        }
     }
 }

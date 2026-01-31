@@ -7,7 +7,7 @@ import java.util.Random;
 
 
 public class TextReader implements Reader<TextFile> {
-    private final static String[] PATH = {"/Music", "/Desktop/Audio/Whatshap", "/Desktop/Audio/Edits", "/Music/Records"};
+    private final static String[] PATH = {"/Documents", "/Desktop/Apuntes", "/Documentos/Deberes", "/Desktop/Notas"};
     private final static String[] CONTENT = {"Hola mundo, adios mundo","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut lacus enim. Sed euismod in ex a sagittis. Phasellus ullamcorper ut urna sit amet venenatis.","Praesent viverra eros at dolor placerat, vel gravida nulla congue."};
     private final Random random;
 
