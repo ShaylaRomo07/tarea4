@@ -2,10 +2,10 @@ package org.ies.tierno.models.typefiles;
 
 import org.ies.tierno.models.File;
 
-public class Text extends File {
+public class TextFile extends File {
     private final String text;
 
-    public Text(int fileSize, String path, String text) {
+    public TextFile(int fileSize, String path, String text) {
         super(fileSize, path);
         this.text = text;
     }

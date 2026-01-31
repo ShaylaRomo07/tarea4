@@ -2,11 +2,11 @@ package org.ies.tierno.models.typefiles;
 
 import org.ies.tierno.models.File;
 
-public class Image extends File {
+public class ImageFile extends File {
     private final int width;
     private final int height;
 
-    public Image(int fileSize, String path, int width, int height) {
+    public ImageFile(int fileSize, String path, int width, int height) {
         super(fileSize, path);
         this.width = width;
         this.height = height;
