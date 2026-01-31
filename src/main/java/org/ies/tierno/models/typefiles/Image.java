@@ -11,11 +11,12 @@ public class Image extends File {
         this.width = width;
         this.height = height;
     }
+
     @Override
     public void open() {
         System.out.println("Archivo de texto");
         openGeneral();
-        System.out.println("Contenido:");
-        System.out.println(text);
+        System.out.println("Tamaño:");
+        System.out.println(width + " x " + height);
     }
 }
