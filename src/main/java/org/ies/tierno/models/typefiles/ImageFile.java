@@ -1,5 +1,6 @@
 package org.ies.tierno.models.typefiles;
 
+import lombok.Data;
 import org.ies.tierno.models.File;
 
 public class ImageFile extends File {

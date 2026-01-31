@@ -10,7 +10,6 @@ public abstract class File {
     private int fileSize;
     private String path;
 
-
     public abstract void open();
 
     public void openGeneral() {
