@@ -9,4 +9,11 @@ public class Audio extends File {
         super(fileSize, path);
         this.lenght = lenght;
     }
+
+    @Override
+    public void open() {
+        System.out.println("Archivo de audio");
+        openGeneral();
+        System.out.println("Duracion: " + lenght);
+    }
 }
