@@ -5,6 +5,7 @@ import lombok.Data;
 import org.ies.tierno.models.File;
 import org.ies.tierno.models.typefiles.AudioFile;
 import org.ies.tierno.models.typefiles.ImageFile;
+import org.ies.tierno.models.typefiles.TextFile;
 
 import java.util.Random;
 
