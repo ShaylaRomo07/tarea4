@@ -3,7 +3,7 @@ package org.ies.tierno;
 import org.ies.tierno.models.Program;
 import org.ies.tierno.readers.ProgramReader;
 import org.ies.tierno.readers.TextReader;
-
+import org.ies.tierno.models.File;
 import java.util.Random;
 import java.util.Scanner;
 public class Main {
@@ -16,5 +16,10 @@ public class Main {
         System.out.println("Nuevo path");
         String outputPath = scanner.nextLine();
         program.execute(outputPath);
+        System.out.println();
+        System.out.println("TRAS EL EXECUTE");
+        for(var file:program.getFiles()){
+            file.open();
+        }
     }
 }
