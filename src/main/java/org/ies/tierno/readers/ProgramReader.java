@@ -19,14 +19,11 @@ public class ProgramReader<T extends File> implements Reader<Program<TextFile>> 
 
     @Override
     public Program<TextFile> read() {
-        TextFile[] files = new TextFile[random.nextInt(2,10)];
+        TextFile[] files = new TextFile[random.nextInt(2, 10)];
         for (int i = 0; i < files.length; i++) {
             files[i] = fileReader.read();
         }
-        return new Program<>(
-                NAME[random.nextInt(NAME.length)],
-                files
-        );
+        return new Program<>(NAME[random.nextInt(NAME.length)], files);
     }
 
 }
