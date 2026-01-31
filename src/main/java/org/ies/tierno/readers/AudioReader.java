@@ -3,7 +3,6 @@ package org.ies.tierno.readers;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.ies.tierno.models.typefiles.AudioFile;
-import org.ies.tierno.models.typefiles.ImageFile;
 import java.util.Random;
 @Data
 @AllArgsConstructor
